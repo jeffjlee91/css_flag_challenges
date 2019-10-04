@@ -1,12 +1,124 @@
 /* Indonesia */
+#indonesia {
+    border: solid 2px black;
+}
+
+.topred {
+    background-color: red;
+    height: 100px;
+}
+
+.bottomwhite {
+    background-color: white;
+    height: 100px;
+}
+
 
 /* Colombia */
 
+#columbia {
+    height: 20vh;
+    border: solid 2px black;
+}
+
+.columbiatopyellow {
+    height: 50%;
+    background-color: gold;
+}
+
+.columbiamiddleblue {
+    height: 25%;
+    background-color: blue;
+}
+
+.columbiabottomred {
+    height: 25%;
+    background-color: red;
+}
+
 /* Ireland */
+
+#ireland {
+    display: flex;
+    border: solid 2px black;
+    height: 20vh;
+}
+
+.leftgreen {
+    background-color: green;
+    width: 100%;
+}
+
+.middlewhite {
+    background-color: white;
+    width: 100%;
+}
+
+.rightorange {
+    background-color: orange;
+    width: 100%;
+}
 
 /* France */
 
+#france {
+    border: solid 2px black;
+    font-size: 0;
+    height: 20vh;
+}
+
+.franceleftblue {
+    display: inline-block;
+    background-color: blue;
+    width: 33.33%;
+    height: 100%;
+}
+
+.francemiddlewhite {
+    display: inline-block;
+    background-color: white;
+    width: 33.33%;
+    height: 100%;
+}
+
+.francerightred {
+    display: inline-block;
+    background-color: red;
+    width: 33.33%;
+    height: 100%;
+}
+
 /* Benin */
+
+#benin {
+    border: solid 2px black;
+    height: 20vh;
+}
+
+.beninvertical1 {
+    background-color: green;
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+
+.beninvertical2 {
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+
+.benintopyellow {
+    background-color: gold;
+    height: 50%;
+    width: 100%;
+}
+
+.beninbottomred {
+    background-color: red;
+    height: 50%;
+    width: 100%;
+}
 
 /* Sweden */
 
