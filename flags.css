@@ -123,15 +123,54 @@
 /* Sweden */
 
 #sweden {
+    border: solid 2px black;
     position: relative;
+    height: 20vh;
 }
 
 .yellow1 {
+    background-color: yellow;
     position: absolute;
+    height: 20vh;
+    width: 40%;
+    right: 0;
 }
 
 .yellow2 {
+    background-color: yellow;
     position: absolute;
+    height: 20vh;
+    width:60%
+}
+
+.bluetopleft, .bluetopright, .bluebottomleft, .bluebottomright {
+    background-color: blue;
+    position: absolute;
+    height: 8vh;
+}
+
+.bluetopleft {
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+
+.bluebottomleft {
+    bottom: 0;
+    left: 0;
+    width: 25%;
+}
+
+.bluetopright {
+    top: 0;
+    right: 0;
+    width: 65%
+}
+
+.bluebottomright {
+    bottom: 0;
+    right: 0;
+    width: 65%;
 }
 
 /* Switzerland */
